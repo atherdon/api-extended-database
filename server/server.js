@@ -1,11 +1,9 @@
-
 'use strict';
 
 var loopback = require('loopback');
 var boot = require('loopback-boot');
 
 var app = module.exports = loopback();
-
 
 app.start = function() {
   // start the web server
@@ -29,4 +27,3 @@ boot(app, __dirname, function(err) {
   if (require.main === module)
     app.start();
 });
-    
