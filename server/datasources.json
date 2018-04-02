@@ -1,10 +1,5 @@
 {
-  "reservationDS": {
-    "name": "reservationDS",
-    "localStorage": "",
-    "file": "db.json",
-    "connector": "memory"
-  },
+  
   "emailDS": {
     "name": "emailDS",
     "connector": "mail",
@@ -26,5 +21,15 @@
     "connector": "loopback-component-storage",
     "provider": "filesystem",
     "root": "./server/files"
+  },
+  "reservationsDS": {
+    "host": "",
+    "port": 0,
+    "url": "mongodb://heroku_b97rxdzw:fnnua12mbtlqd5bh0i35roo0a@ds141524.mlab.com:41524/heroku_b97rxdzw",
+    "database": "reservationsDB",
+    "password": "",
+    "name": "reservationsDS",
+    "user": "",
+    "connector": "mongodb"
   }
 }

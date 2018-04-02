@@ -7,7 +7,9 @@
     "enabled": true,
     "raiseError": false,
     "migration": "auto-migrate-data",
-    "models": ["Role"],
+    "models": [
+      "Role"
+    ],
     "fixtures": "./test/fixtures/"
   }
 }
