@@ -29,11 +29,13 @@
     "raven": "^2.4.2",
     "raven-js": "^3.24.1",
     "serve-favicon": "^2.0.1",
-    "strong-error-handler": "^2.0.0"
+    "strong-error-handler": "^2.0.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-loopback": "^10.0.0",
+    "jest": "^22.4.3",
     "nsp": "^2.1.0"
   },
   "repository": {

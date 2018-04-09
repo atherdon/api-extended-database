@@ -25,11 +25,12 @@
   "reservationsDS": {
     "host": "",
     "port": 0,
-    "url": "mongodb://heroku_b97rxdzw:fnnua12mbtlqd5bh0i35roo0a@ds141524.mlab.com:41524/heroku_b97rxdzw",
+    "url": "",
     "database": "reservationsDB",
     "password": "",
     "name": "reservationsDS",
     "user": "",
     "connector": "mongodb"
   }
+
 }
