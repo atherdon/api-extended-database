@@ -11,8 +11,7 @@
     "posttest": "npm run lint && nsp check",
     "watch": "nodemon server/server.js",
     "migrate": "node bin/automigrate.js",
-    "import": "node bin/import.js",
-    "s": "npm run migrate && nodemon bin/import.js"
+    "import": "node bin/import.js"
   },
   "dependencies": {
     "compression": "^1.0.3",
