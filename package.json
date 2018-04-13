@@ -15,6 +15,7 @@
     "s": "npm run migrate && nodemon bin/import.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "helmet": "^3.10.0",
@@ -24,6 +25,7 @@
     "loopback-component-explorer": "^5.0.0",
     "loopback-component-storage": "^3.3.1",
     "loopback-connector-mongodb": "^3.4.3",
+    "mongodb": "^3.0.6",
     "nodemon": "^1.17.2",
     "npm": "^5.8.0",
     "raven": "^2.4.2",
