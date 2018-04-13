@@ -23,8 +23,15 @@
     "root": "./server/files"
   },
   "reservationsDS": {
+<<<<<<< HEAD
+=======
+    "host": "",
+    "port": 0,
+
+>>>>>>> 56e54308b1c8adb00a9b961e8d2a032ee781c0d6
     "url": "mongodb://heroku_b97rxdzw:fnnua12mbtlqd5bh0i35roo0a@ds141524.mlab.com:41524/heroku_b97rxdzw",
     "name": "reservationsDS",
     "connector": "loopback-connector-mongodb"
   }
+
 }
