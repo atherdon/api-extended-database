@@ -1,5 +1,5 @@
 {
-  
+
   "emailDS": {
     "name": "emailDS",
     "connector": "mail",
@@ -25,12 +25,13 @@
   "reservationsDS": {
     "host": "",
     "port": 0,
-    "url": "",
-    "database": "reservationsDB",
+
+    "url": "mongodb://heroku_b97rxdzw:fnnua12mbtlqd5bh0i35roo0a@ds141524.mlab.com:41524/heroku_b97rxdzw",
+    "database": "reservationsDS",
     "password": "",
     "name": "reservationsDS",
     "user": "",
-    "connector": "mongodb"
+    "connector": "loopback-connector-mongodb"
   }
 
 }
