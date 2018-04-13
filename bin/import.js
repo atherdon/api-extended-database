@@ -14,23 +14,21 @@ let helper     = require(path.resolve(__dirname, 'helper'));
 
 // include middleware
 // @todo make it auto-icludable from folder
-let Attribute = require(path.resolve(__dirname, 'campground'));
+let Campground = require(path.resolve(__dirname, 'campground'));
 
 
 // @TODO remove this include and just find all recipes, stored at database.
-let Recipe    = require(path.resolve(__dirname, 'container'));
-let Ingredient= require(path.resolve(__dirname, 'customer'));
+let Container    = require(path.resolve(__dirname, 'container'));
+let Customer= require(path.resolve(__dirname, 'customer'));
 // console.log(  )
 
 
-let Departments  = require(path.resolve(__dirname, 'reservation'));
+let Reservation  = require(path.resolve(__dirname, 'reservation'));
 
 let options = {
 	server: server,
 	database: database,
 	raven: raven,
-
-
 }
 
 //@TODO think about separating predata and options array
@@ -55,8 +53,6 @@ async.parallel({
 		) {
 				raven.captureException("not imported well");
 		}
-
-
 
 			console.log('import finished');
     //
