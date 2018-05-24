@@ -14,21 +14,22 @@
     "import": "node bin/import.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.2",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
-    "helmet": "^3.12.1",
-    "loopback": "^3.19.1",
+    "helmet": "^3.10.0",
+    "helper-js": "^1.0.44",
+    "loopback": "^3.0.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-auto-migrate": "^0.3.1",
     "loopback-component-explorer": "^6.0.1",
     "loopback-component-storage": "^3.3.1",
     "loopback-connector-mongodb": "^3.4.3",
-
-    "nodemon": "^1.17.5",
-
-    "npm": "^6.0.1",
-    "raven": "^2.6.2",
-    "raven-js": "^3.25.2",
+    "mongodb": "^3.0.6",
+    "nodemon": "^1.17.2",
+    "npm": "^5.8.0",
+    "raven": "^2.5.0",
+    "raven-js": "^3.24.1",
     "serve-favicon": "^2.5.0",
     "strong-error-handler": "^2.0.0",
     "underscore": "^1.9.0"
