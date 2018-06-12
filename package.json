@@ -29,7 +29,7 @@
     "nodemon": "^1.17.2",
     "npm": "^5.8.0",
     "raven": "^2.5.0",
-    "raven-js": "^3.24.1",
+    "raven-js": "^3.26.2",
     "serve-favicon": "^2.5.0",
     "strong-error-handler": "^2.0.0",
     "underscore": "^1.9.0"
